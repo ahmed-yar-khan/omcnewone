@@ -1,0 +1,235 @@
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.img-background {
+  max-width: 100% !important;
+  height: 100% !important;
+  opacity: .8;
+  filter: blur(10px);
+  object-fit: cover;
+  background-color: #000;
+  overflow: visible;
+}
+
+.background-img-opicity {
+  background: #00000073;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.mobiles-case-study {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10%;
+  left: 5%;
+  right: 5%;
+}
+.mobile-view-video-data {
+  width: 15.4rem !important;
+  border-radius: 38px 34px 32px 35px;
+  overflow: hidden;
+  width: 100%;
+  height: 32.6rem !important;
+  border-radius: 21px;
+}
+
+img.img-frame {
+  max-width: 100%;
+}
+.display-case-study-flex {
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: #00000078;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+}
+.background-img-url {
+  position: relative;
+  height: 750px;
+}
+
+
+.case-study-text {
+  z-index: 222;
+  font-size: 6vw; 
+  position: relative;
+  left:0%;
+  right: 5%;
+  top: 1%;
+}
+
+
+.barstool {
+  color: #00bbbe;
+  line-height: 10vw;
+  position: relative;
+  font-weight: 900;
+  font-size: 10vw;
+  filter: drop-shadow(2px 3px 2px black);
+  right: 3rem;
+}
+.brand-case-study {
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 3vw; 
+  filter: drop-shadow(2px 4px 3px black);
+  margin-left: 5%; 
+  margin-top: 2%;
+}
+.background-opicity-shade {
+  overflow: hidden;
+}
+video.video-tag.video-tagvideo.animate-slide-right {
+  height: 100%;
+  left: 1.1px;
+  position: relative;
+  border-radius: 30px 73px 77px 32px;
+}
+
+.mobile-video.radius {
+
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 40px 29px 30px 37px;
+}
+
+.rating-case-study-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 4%;
+  column-gap: 43px;
+}
+p.barstool-para-casestudy {
+  font-size: 0.9rem;
+  max-width: 38rem;
+  color: white;
+  position: relative;
+  top: 1.5rem;
+  left: 3rem;
+}
+
+
+.rating-case-study {
+  color: white;
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+h3.number-case-study {
+  font-size: 3vw;
+  color: rgb(255, 255, 255);
+}
+p.para-rating-case-study {
+  font-size: 1vw;
+  color: #ffffff;
+  max-width: 100%;
+  text-align: center;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+  .mobiles-case-study {
+    top: 15% !important;
+    left: 2% !important;
+    right: 2% !important;
+  }
+
+
+  .case-study-text {
+    z-index: 222;
+    position: relative;
+    font-size: 6vw;
+    right: 17%;
+    top: 0%;
+}
+  .barstool {
+    font-size: 12vw !important;
+    margin-left: 1% !important;
+  }
+
+  .brand-case-study {
+    font-size: 5vw !important;
+    margin-left: 2% !important;
+    margin-top: 1% !important;
+  }
+  p.para-rating-case-study {
+    font-size: 1.2vw !important;
+  }
+
+  p.barstool-para-casestudy {
+    font-size: 0.6rem !important;
+    max-width: 38rem !important;
+    color: white;
+    position: relative;
+    top: 0.5rem !important;
+    left: 0rem !important;
+    text-align: justify;
+    width: 60% !important;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.progress-bar-container {
+  z-index: 999;
+  width: 25px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 100px;
+  bottom: 0%;
+  left: auto;
+  right: 25px;
+}
+.bara {
+  width: 4px;
+  height: 300px;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.inner-2 {
+  width: 4px;
+  height: 100%;
+  background-color: #00bbbe;
+  position: absolute;
+  top: -40%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+

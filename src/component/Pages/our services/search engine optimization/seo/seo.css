@@ -1,0 +1,354 @@
+
+.seoimg {
+    background-image: url("/public/assets/backgroundimg/backgroung/seo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.seo-title {
+    font-size: 43px!important;
+    color: black!important;
+}
+.seo-title-color {
+    color: black!important;
+  
+}
+
+.content-seo-main-section-one {
+    color: black;
+    background: #ffffff;
+    display: flex;
+    padding: 0rem 4rem;
+    max-width: 100%;
+    width: 2500px;
+    margin: auto;
+}
+
+@media screen and (max-width:1000px) {
+    .content-seo-main-section-one {
+
+        flex-wrap: wrap;
+    }
+
+    .child-seo-paragrapg {
+        margin-left: 20px;
+    }
+    .seo-title {
+        font-size: 33px!important;
+    }
+
+}
+
+h2.title-seo-headind {
+    font-size: 31px;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.child-seo-paragrapg {
+    border-left: 4px solid #00bbbe;
+    padding-left: 1.7rem;
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
+}
+.content-seo-one {
+    padding-right: 1.5rem;
+}
+.just-content-para-seo {
+    /* padding: 0rem 1rem; */
+    text-align: justify;
+}
+
+p.para-seo-content-p {
+    text-align: justify;
+}
+
+.content-seo-two {
+    margin-top: 3rem;
+    max-width: 100%;
+    width: 100%;
+}
+
+p.para-seo-content {
+    margin-bottom: 1.6rem;
+}
+
+.btn-seo-contact-us {
+    text-decoration: none;
+    margin-left: 1.8rem;
+    font-weight: 600;
+    background-image: linear-gradient(180deg, #00bbbe, #095d5e);
+    border-radius: 4px;
+    color: black;
+    padding: 0.7rem 1rem;
+}
+
+.card-content-child-main-container {
+    background: #202124;
+    max-width: 100%;
+    width: 75%;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+
+.card-search-seo {
+    /* padding: 1rem; */
+    /* padding-left: 3rem; */
+    /* padding-top: 2rem;
+    padding-bottom: 3rem; */
+    text-align: justify;
+}
+
+h2.title-headin {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+p.p-seo-content {
+    margin-bottom: 0.7rem;
+}
+
+.card-seo-big-card-content-container {
+    padding: 0rem 4rem;
+}
+
+.child-content-main-title-seo {
+    padding: 3rem 4.2rem;
+    font-size: 33px;
+    max-width: 100%;
+    width: 2500px;
+    margin: auto;
+    font-weight: 900;
+}
+.container-content-card-seo {
+    max-width: 100%;
+    width: 2500px;
+    margin: auto;
+}
+.title-seo-head {
+    width: fit-content;
+    border-bottom: 10px solid #1cc0c3;
+    color: black;
+}
+
+.content-card-one {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.content-card-two {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-icon-seo {
+    padding-top: 17px;
+}
+
+img.icon-seo-tecnical {
+    max-width: 150px;
+}
+
+.para-car-content-p-element {
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width:900px) {
+    .card-content-child-main-container {
+        max-width: none;
+        width: 100%;
+    }
+
+    .card-seo-big-card-content-container {
+        padding: 0rem 1rem;
+    }
+
+    .content-card-one {
+        flex-direction: column;
+    }
+
+    .content-card-two {
+        flex-direction: column;
+    }
+
+    .img-icon-seo {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .card-search-seo {
+        padding-left: 1rem;
+    }
+
+    img.icon-seo-tecnical {
+        max-width: 127px;
+    }
+    h2.title-tiktok {
+        font-size: 30px!important;
+     
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.card-seo-big-card-content-container.right-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* .card-seo-big-card-content-container.left-card::after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: url("/public/assets/icon/right-Direction-display-left.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    left: 17%;
+} */
+
+/* .card-seo-big-card-content-container.left-card::after {
+    content: "";
+    width: none;
+    height: 100px;
+    background: url("/public/assets/icon/right-Direction-display-left.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    left: 17%;
+} */
+
+
+
+/* .card-seo-big-card-content-container::before{
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: url("/public/assets/icon/right-Direction-display-left.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    right: 17%;
+    transform: rotateY(180deg);
+} */
+/* img.img-seo-case-ticktok {
+    max-width: 100%;
+    width: 100%;
+}
+.img-seo-ticktok-img {
+    max-width: 100%;
+    width: 50%;
+}
+.content-child-container-casestudy {
+    display: flex;
+    column-gap: 50px;
+}
+h4.ticktok-content {
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+}
+.content-seo-tiktok-casestudy {
+    max-width: 100%;
+    width: 80%;
+    text-align: justify;
+}
+.content-seo-tiktok-casestudy {
+    max-width: 100%;
+    width: 50%;
+} */
+.casestudy-seo-img {
+    max-width: 100%;
+}
+
+.relative.mb-6.overflow-hidden.rounded-lg.bg-cover.bg-no-repeat.shadow-lg.dark\:shadow-black\/20 {
+    overflow: hidden;
+    height: 329px;
+}
+
+.Tktok-content {
+    text-align: center;
+}
+
+.tiktok-heading {
+    width: fit-content;
+}
+
+.Tktok-content {
+    width: fit-content;
+    margin: auto;
+}
+
+h2.title-tiktok {
+    font-size: 50px;
+    background: black;
+    color: white;
+    padding: 0.5rem 2.5rem;
+}
+
+.Tktok-content {
+    width: fit-content;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 20rem;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+h2.\31 0xincrease-title {
+    font-size: 37px;
+    color: black;
+    font-weight: 800;
+}
+
+section.casestudy-seo.mb-32.text-center.md\:text-left {
+    position: relative;
+}
+
+p.tiktok-para-cs.text-neutral-500.dark\:text-neutral-300 {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.seo-casestudycontainer.mx-auto.md\:px-6 {
+    padding: 0rem 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================section1 seo background ================ */

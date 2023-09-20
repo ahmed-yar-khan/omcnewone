@@ -1,0 +1,285 @@
+.digital-img {
+    max-width: 100%;
+    width: 100%;
+    /* background-image: url("/public/assets/backgroundimg/backgroung/digitalmarketing-banner\ \(2\).jpg"); */
+    background-image: url("/public/assets/backgroundimg/section-imgs/how-digital-marketing-works.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.heading-digital-marketing-agency {
+    background: black;
+    padding-bottom: 4rem;
+    color: white;
+}
+
+
+.digitalsection {
+    display: flex;
+}
+
+.heading-digital-marketing-agency {
+    background: black;
+    padding: 2rem 0rem;
+    color: white;
+    text-align: center;
+    font-size: 23px;
+}
+
+img.img-mobile-app {
+    width: 100%;
+    height: 250px;
+    max-width: 100% !important;
+}img.img-mobile-app {
+    width: 650px!important;
+    height: 400px!important;
+}
+
+@media screen and (max-Width : 800px) {
+    .digitalsection {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .acontent {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    h1.titale-promotion.heading-all-component-font-style {
+        font-size: 17px !important;
+        padding-top: 25px;
+    }
+
+    .content-2content {
+
+        flex-wrap: wrap;
+    }
+    h1.heading-all-component-font-style {
+        font-size: 18px!important;
+    }
+    .content-background-img-fixed-container {
+        padding: 1rem!important;
+    }
+    .c {
+        width: 100%;
+        text-align: center;
+    }
+    .section-padding-mobile-view {
+        padding: 1rem;
+    }
+}
+
+.digitalsection.right {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.digitalsection {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* padding: 1rem; */
+    row-gap: 20px;
+    column-gap: 26px;
+    width: 1144px;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================3rd section content      ================ */
+
+
+.content-background-img-fixed-container {
+    background-color: rgb(255, 255, 255);
+    width: 1144px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.content-2content {
+    color: #000000;
+}
+
+.content-para1 {
+    text-align: justify;
+}
+
+p.para-p-video-advertising.paragrapg-all-component-font-family {
+    color: black;
+}
+
+.acontent {
+    width: 60%;
+    height: 100%;
+}
+
+h5.title-video-advertising {
+    color: #000000;
+    font-size: 30px;
+    margin-bottom: 22px;
+}
+
+h1.titale-promotion {
+    text-align: center;
+    color: #00bbbe;
+    filter: drop-shadow(1px 1px 1px black);
+    font-weight: 700;
+}
+
+.social-media-promotion {
+    text-align: center;
+    /* color: black; */
+}
+h1.contact-head.heading-all-component-font-style {
+    color: rgb(255 255 255);
+}
+h1.heading-all-component-font-style {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+
+
+/* ========================animation  card parrelx effect =========================== */
+
+
+h1 {
+    font-size: 3.2rem;
+    padding-top: 2rem;
+}
+
+/* h1+p {
+    font-size: 1.8rem;
+    padding: 2rem 0 3rem;
+} */
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 4rem 0;
+    align-items: center;
+}
+
+.wrap {
+    margin: 1rem;
+    transform-style: preserve-3d;
+    transform: perspective(100rem);
+    cursor: pointer;
+}
+
+.container {
+    --rX: 0;
+    --rY: 0;
+    --bX: 50%;
+    --bY: 80%;
+    width: 16.5rem;
+    height: 26rem;
+    border: 1px solid var(--background-color);
+    border-radius: 1.6rem;
+    padding: 2rem;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    transform: rotateX(calc(var(--rX) * 1deg)) rotateY(calc(var(--rY) * 1deg));
+    background-position: var(--bX) var(--bY);
+    background-size: 40rem auto;
+    box-shadow: 0 0 3rem .5rem hsla(0, 0%, 0%, .2);
+    transition: transform .6s 1s;
+}
+
+.background1 {
+    background: url("/public/assets/backgroundimg/backgroung/branding.png") center/cover;
+  }
+  
+  .background2 {
+    background: url("/public/assets/backgroundimg/backgroung/setupCoustomdesgin.jpg") center/cover;
+  }
+  
+  .background3 {
+    background: url("/public/assets/backgroundimg/backgroung/social-mobile.jpg") center/cover;
+  }
+  
+  .background4 {
+    background: url("/public/assets/backgroundimg/backgroung/social\ media.jpg") center/cover;
+  }
+
+.container::before,
+.container::after {
+    content: "";
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #fff;
+    position: absolute;
+    z-index: 2;
+    opacity: .3;
+    transition: .3s;
+}
+
+.container::before {
+    top: 2rem;
+    right: 2rem;
+    border-width: 0 1px 1px 0;
+}
+
+.container::after {
+    bottom: 2rem;
+    left: 2rem;
+    border-width: 1px 0 0 1px;
+}
+
+.container--active {
+    transition: none;
+}
+
+.container p {
+    color: hsl(0, 0%, 100%);
+    font-size: 2.2rem!important;
+    filter: drop-shadow(2px 2px 1px black);
+}
+
+.wrap:hover .container::before,
+.wrap:hover .container::after {
+    width: calc(100% - 4rem);
+    height: calc(100% - 4rem);
+}
+
+.abs-site-link {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    color: hsla(0, 0%, 0%, .6);
+    font-size: 1.6rem;
+}

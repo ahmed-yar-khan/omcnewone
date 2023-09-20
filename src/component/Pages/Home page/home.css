@@ -1,0 +1,520 @@
+/*---------------------    video section start   --------------------------*/
+
+section.mobile-section {
+    display: flex;
+    align-items: center;
+}
+
+.video-tag .video-tagvideo {
+    max-width: 55%;
+    height: auto;
+}
+
+
+.video-tagvideo {
+    max-width: 595px !important;
+    width: none !important;
+}
+
+/* img,
+video {
+    max-width: 64%;
+    height: auto;
+} */
+img,
+video {
+    max-width: 56%;
+    height: auto;
+}
+
+.mobile-fram {
+    display: contents;
+}
+.mobile-view-video.animate-slide-right {
+    box-shadow: 1px 0px 5px;
+}
+.mobile-view-video {
+    position: absolute;
+    overflow: hidden;
+    top: 1px;
+    height: 18.2rem !important;
+    width: 8.7rem !important;
+    border-radius: 17px;
+}
+
+video.video-tag {
+    position: relative;
+    left: 0.1rem;
+    border-radius: 20px;
+}
+
+.mobile-view-fram {
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.mobiles {
+    display: flex;
+    flex-wrap: wrap;
+    height: 477px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    clip-path: polygon(50% 3.875rem, 100% 0, 100% 100%, 0 47.75rem, 0 0);
+}
+
+.mobile-view-icon {
+    display: flex;
+    row-gap: 52px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* ------animation ------- */
+.animate-slide-right {
+    animation: slide-right 3s ease-in-out forwards;
+    transform: translateX(0);
+}
+
+@keyframes slide-right {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+/*---------------------    video section close    --------------------------*/
+/*---------------------    Advertisement text start    --------------------------*/
+
+/* h3.advertisment-text-heading {
+    color: #ff0000;
+    font-size: 3rem;
+    font-weight: 900;
+    padding-top: 5rem;
+    filter: drop-shadow(5px 5px 1px black);
+    font-family: system-ui;
+} */
+h3.advertisment-text-heading {
+    font-size: 50px;
+    padding-top: 5rem;
+    color: rgb(255, 0, 0) !important;
+}
+
+/*---------------------    Advertisement text close    --------------------------*/
+/*--------------------------    Client logo start   ----------------------------*/
+
+.clients_logo-background {
+    background: #b30606;
+}
+
+video.video-tag.video-tagvideo {
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+video.video-tag-home-section-background {
+    max-width: 100%;
+    position: absolute;
+    top: -0;
+}
+
+.home-first-section-background-video {
+    overflow: hidden;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+}
+
+.home-first-section-text-overlay-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.the-logo-omc {
+    width: 30rem;
+    margin: 0;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+section.home-first-section-background-video-container {
+    position: relative;
+}
+
+span.span-home-color {
+    color: red;
+    font-weight: 800;
+}
+
+h4.heading-home-section {
+    color: #ffb500;
+    font-size: 1.8rem;
+}
+
+
+p.ptag-home-section-text {
+    color: #f5eeee;
+    font-weight: 800;
+}
+
+h5.headind-color-home-section {
+    color: #ffb500;
+}
+
+.home-first-section-text {
+    font-size: 1.3rem;
+    font-weight: 700;
+    filter: drop-shadow(0px 0px 1px black);
+}
+
+.home-first-section-text-responsive {
+    height: 16rem;
+    width: 16rem;
+}
+
+/*-------------------------- home768 top video section  --------------------------------*/
+@media screen and (min-width: 523px) and (max-width: 1260px) {
+    .home-first-section-background-video {
+        overflow: hidden;
+        height: auto;
+    }
+
+    video.video-tag-home-section-background {
+        max-width: 100%;
+        position: relative;
+    }
+
+    .mobiles {
+        height: auto;
+        clip-path: none;
+    }
+
+    section.home-first-section-background-video-container {
+        position: relative;
+    }
+
+    video.video-tag-home-section-background {
+        max-width: 100%;
+        position: relative;
+    }
+
+    .mobiles {
+        clip-path: none;
+    }
+    .card {
+
+        margin: 5px!important;
+    }
+}
+
+
+
+
+@media screen and (max-width: 523px) {
+    h4.heading-home-section {
+        color: #ffb500;
+        font-size: 1.2rem;
+    }
+    .card {
+
+        margin: 5px!important;
+    }
+    .home-first-section-text-responsive {
+        height: auto;
+        width: 80%;
+        max-width: 300px;
+        display: inline-block;
+    }
+
+    img.the-logo-omc {
+        width: 100%;
+        max-width: 100px;
+    }
+
+    .home-first-section-text-overlay-container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 12rem;
+        column-gap: 4rem;
+    }
+
+    .mobiles {
+        height: auto;
+        clip-path: none;
+    }
+
+    section.home-first-section-background-video-container {
+        position: relative;
+    }
+
+    video.video-tag-home-section-background {
+        max-width: 100%;
+        position: relative;
+    }
+
+    h3.advertisment-text-heading {
+        font-size: 2.2rem;
+    }
+
+    .home-first-section-background-video {
+        overflow: hidden;
+        height: auto;
+    }
+
+    .home-first-section-text {
+        font-size: 0.9rem;
+
+    }
+}
+
+@media screen and (max-width:281px) {
+    .home-first-section-text {
+        font-size: 0.5rem;
+    }
+
+    h4.heading-home-section {
+        font-size: 0.8rem;
+    }
+
+    .home-first-section-text-overlay-container {
+        height: 8.6rem;
+        column-gap: 3rem;
+    }
+
+    h3.advertisment-text-heading {
+        font-size: 1.7rem;
+    }
+
+    .what-we-do-Text {
+        font-size: clamp(2.2rem, 5vw, 1.875rem) !important;
+    }
+
+    .vertical-card {
+        width: 16em !important;
+    }
+}
+
+
+
+/*============================== 3rd section start ===========================*/
+
+section.home-third-section-container {
+    background: #ffffff;
+}
+
+span.color-3rd-section-heading {
+    color: #00bbbe;
+}
+
+@media (min-width: 768px) {
+
+    .what-we-do-Text {
+        font-size: clamp(1.875rem, 4vw, 2.5rem);
+
+    }
+}
+
+
+
+.Do-text-color {
+    --tw-text-opacity: 1;
+    color: #ffb100;
+}
+
+.vertical-card {
+    height: 31.3em;
+    width: 20em;
+    color: white;
+    border-radius: 7px;
+    display: flex;
+    background: rgb(46, 46, 46);
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    row-gap: 4rem;
+    justify-content: center;
+}
+
+/* ==========================animation of 3rd section code start =============================== */
+/* ==========================animation of 3rd section code start =============================== */
+
+
+
+.background-change {
+    width: 98%;
+    height: 98%;
+    border-radius: 6px;
+    background: #2e2e2e;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+}
+
+@keyframes rotate-border {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.position-relative-vertical-card.animated {
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+
+.position-relative-vertical-card.animated .vertical-card {
+    animation: fade-in-out 1s forwards;
+    position: relative;
+}
+
+.position-relative-vertical-card.animated .vertical-card:after,
+ .position-relative-vertical-card.animated .vertical-card:before {
+    animation: rotate-border 4s linear infinite;
+    content: var(--tw-content);
+    position: absolute;
+    top: -50%;
+    background-image: conic-gradient(transparent, transparent, transparent, #00bbbe);
+    left: -60%;
+    height: 248%;
+    width: 205%;
+}
+.position-relative-vertical-card .vertical-card {
+    position: relative;
+    z-index: 1;
+}
+
+.child-container-card-style {
+    display: inline-block;
+}
+
+
+
+/* ==========================animation of 3rd section code end =============================== */
+/* ==========================animation of 3rd section code end =============================== */
+
+
+h2.card-3rd-head {
+    color: #00bbbe;
+    font-size: xx-large;
+    font-weight: 900;
+    filter: drop-shadow(1px 1px 2px black);
+}
+span.marketing-color {
+    font-size: larger;
+    font-family: system-ui;
+}
+
+.what-we-do-Text {
+    font-weight: 900;
+    margin-bottom: 25px;
+    line-height: 1;
+    font-size: clamp(2.8125rem, 5vw, 1.875rem);
+    text-align: center;
+}
+.home-third-section-text {
+    max-width: 100%;
+    width: 1148px;
+    margin: auto;
+}.display-home-third-section-heading {
+    position: relative;
+    background: white;
+}
+/*============================== 3rd section close ===========================*/
+
+/*============================== 3rd card ===========================*/
+.main-container-card-3rd-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding-bottom: 2rem;
+}
+.disply-setting {
+    text-align: center;
+  
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.card {
+    border: 1px solid #2e2e2e;
+    background-color: #2e2e2e;
+    text-align: center;
+    height: 15rem;
+    width: 16rem;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    line-break: auto;
+    line-height: 61px;
+}
+
+h3.heading-card-title {
+    color: #00bbbe;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 0.5rem;
+    padding-top: 15px;
+    filter: drop-shadow(1px 1px 2px black);
+}
+
+@media (max-width: 768px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+/*============================== 3rd card ===========================*/
+
+/*============================== owlcarsole start  ===========================*/
+
+.splide__slide {
+    width: auto !important;
+}
+
+.splidenew {
+    max-width: 98.8vw;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* .splide__slide {
+    margin:0.3rem -1rem !important ;
+} */
+
+/*============================== owlcarsole end ===========================*/

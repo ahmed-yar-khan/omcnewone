@@ -1,0 +1,59 @@
+h1.about-heading-title {
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    font-size: 43px;
+    font-weight: 700;
+    margin-bottom: 0rem;
+    /* background: #00000057; */
+}
+h2.author-position {
+    font-weight: 500;
+}
+img.CLIENT-IMG-COMMENTS {
+    border-radius: 16px;
+    height: 133px;              
+    margin-bottom: 1rem;
+}
+.client-author-name-and-ceo {
+    margin-bottom: 1rem;
+}
+
+.author-detail-with-img {
+    color: white;
+}
+
+h2.auther-name {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+p.author-comment {
+    color: white;
+    font-size: revert;
+}
+
+.newslider {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.newslider {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 22px;
+    text-align: justify;
+}
+
+.about-us-section3 {
+    background: #1d22224a;
+}
+.splide__list .next_page_view {
+    display: flex !important;
+}
+

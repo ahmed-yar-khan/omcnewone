@@ -1,0 +1,96 @@
+.parallax-container {
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+}
+.parallax-image {
+  height: 100vh; /* Set the height of the Parallax component to the viewport height */
+  background-size: cover; /* Make the background image cover the entire component */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: Keep the background fixed while scrolling */
+}
+img.logo {
+  margin: auto;
+  max-width: 100%;
+  width: 342px;
+}
+.contact-us-btn-parralx {
+  font-size: 14px;
+  font-style: normal;
+  background: #00bbbe;
+  border-color: rgb(255 0 0) !important;
+  background-image: linear-gradient(180deg, #00bbbe, #008487);
+  color: #000000!important;
+  border-radius: 5px;
+  padding: 12px 14px;
+  filter: drop-shadow(2px 4px 6px black);
+  font-weight: bolder;
+}
+.online-sucess-begins {
+  color: white;
+  font-size: 37px;
+  font-weight: 700;
+  padding: 0 0 55px 0;
+  font-style: normal;
+}
+.parallax-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+img.react-parallax-bgimage{
+  max-width: 100%!important;
+}
+.parallax-bg-image {
+  width: 100%;
+  max-width: none;
+  height: auto;
+  transform: translate3d(0, 0, 0); /* Add hardware acceleration for smoother parallax */
+  transition: transform 0.4s ease-in-out;
+}
+
+.parallax-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 100px 0;
+}
+
+/* Add this CSS for the parallax effect */
+.parallax-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.3); /* Optional overlay for better readability */
+}
+
+/* Add this CSS for the parallax effect */
+.parallax-container:hover .parallax-bg-image {
+  transform: translate3d(0, 20px, 0); /* Adjust the translation value for desired parallax effect */
+}
+
+/* Responsive Styles (you can adjust these as needed) */
+@media (max-width: 768px) {
+  .parallax-container {
+    height: auto;
+  }
+
+  .parallax-content {
+    padding: 50px 0;
+  }
+
+  .parallax-content h1 {
+    font-size: 28px;
+  }
+
+  .parallax-content p {
+    font-size: 16px;
+  }
+}
