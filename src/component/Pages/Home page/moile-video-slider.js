@@ -100,6 +100,7 @@ function SplideComponent() {
                             style={{ height: "100%", borderRadius: "20px" }}
                             key={index}
                             loading="lazy"
+                            preload="none" 
                           />
                         </div>
                       </div>

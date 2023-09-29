@@ -117,6 +117,7 @@ export const Home = () => {
             ref={videoRef}
             src={process.env.PUBLIC_URL + '/assets/video/background2.mp4'}
             loading="lazy"
+            preload="none" 
           />
         </div>
       </section>

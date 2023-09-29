@@ -86,6 +86,7 @@ export const CaseStudy = () => {
                                                                 style={{ height: "100%", borderRadius: "20px" }}
                                                                 loading="lazy"
                                                                 key={index}
+                                                                preload="none" 
                                                             />
                                                         </div>
                                                     </div>

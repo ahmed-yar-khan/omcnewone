@@ -102,6 +102,7 @@ export const WebDesgin = () => {
                             ref={videoRef}
                             src='/assets/video/computer-white-background.mp4'
                             loading="lazy"
+                            preload="none" 
                         />
                     </div>
                     <div className="section2-web-soloution-content">
@@ -170,6 +171,7 @@ export const WebDesgin = () => {
                             ref={videoRef}
                             src="/assets/video/clock-black-background.mp4"
                             loading="lazy"
+                            preload="none" 
                         />
                     </div>
                 </div>
