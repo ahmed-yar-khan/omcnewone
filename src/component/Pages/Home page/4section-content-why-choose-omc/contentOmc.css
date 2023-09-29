@@ -6,17 +6,15 @@
     }
 
     span.content-color-responsive {
-        font-size: 32px;
+        font-size: 18px !important;
         line-height: normal;
     }
 
     span.digital-marketing-color {
-        font-size: 32px;
+        font-size: 18px !important;
         line-height: normal;
     }
 }
-
-
 
 span.red {
     color: #f30000;
@@ -35,6 +33,7 @@ span.digital-marketing-color {
     font-weight: 700;
     color: #000000;
 }
+
 .Digital-Marketing-Agency-heading {
     text-align: center;
     padding: 0rem 1rem;
@@ -46,10 +45,6 @@ span.content-color-responsive {
     color: black;
 }
 
-/* h2.h2-digital-marketing {
-    font-family: system-ui;
-    filter: drop-shadow(2px 2px 1px black);
-} */
 .content-para-why-choose {
     max-width: 100%;
     margin: 0 auto;
@@ -57,6 +52,7 @@ span.content-color-responsive {
     width: 1181px;
     text-align: revert;
 }
+
 /* -------------------- content-second-portion------------ */
 @media (min-width: 782px) {
 
@@ -75,13 +71,16 @@ span.content-color-responsive {
     .img-team {
         flex: auto;
     }
+
+    .meet-our-color {
+        font-size: 18px !important;
+
+    }
+
+    .color-marketing-experts {
+        font-size: 18px !important;
+    }
 }
-
-
-
-
-
-
 
 .heading-meet-our-team {
     font-size: 22px;
@@ -105,17 +104,6 @@ p.strong-para-meet-our-team {
     font-size: 18px;
     font-weight: 700;
 }
-/* .content-four-card-heading {
-    display: table;
-    margin: 15px auto !important;
-    background-image: linear-gradient(180deg,#ff0000,#620000);
-    font-family: system-ui;
-    color: #fff7f7;
-    padding: 11px 16px;
-    font-weight: 600;
-    font-size: 13px;
-    border-radius: 3px;
-} */
 
 
 .color-marketing-experts {
@@ -136,9 +124,8 @@ p.content-four-card-para {
     padding: 0.2rem;
     color: black;
     text-align: center;
-    /* white-space-collapse: break-spaces;
-    white-space-collapse: preserve-breaks; */
 }
+
 .content-four-card-some-reason-why-container {
     display: flex;
     justify-content: center;
@@ -173,12 +160,6 @@ p.para-meet-our-team {
 }
 
 /* ------------------new content and image ---------------------- */
-
-
-
-
-
-
 .content-meet-our-team-container {
     flex-grow: 1;
     min-width: 0;
@@ -186,34 +167,8 @@ p.para-meet-our-team {
     overflow-wrap: break-word;
     font-size: 16px;
     box-sizing: border-box;
-    
+
 }
-
-
-
-
-
-
-/* @keyframes slideIn {
-    0% {
-        transform: translateY(50%);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
-} */
-
-/* @keyframes slide-bottom-to-top {
-    0% {
-        transform: translateY(50%);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
-} */
-
 
 @keyframes slide-right {
     0% {
@@ -224,34 +179,6 @@ p.para-meet-our-team {
         transform: translateY(0);
     }
 }
-
-
-
-/* 
-.animation-content.animate-slide {
-    animation-name: slide-bottom-to-top;
-    transform: translateY(0);
-}
-
-
-
-.img-team.animate-slide {
-    animation-name: slide-right;
-    transform: translateX(0);
-}
-
-
-.animate-slide {
-    animation-duration: 1.5s;
-    animation-timing-function: ease-in-out;
-}
-
-
-.content-meet-our-team-container.animate-slide-left {
-    animation: slideIn 1.5s ease-in-out forwards; 
-    transform: translateX(0);
-} */
-
 
 .meet-our-team-container {
     max-width: 100%;
@@ -267,8 +194,6 @@ p.para-meet-our-team {
     }
 }
 
-
-
 .img-team {
     flex: 1;
 }
@@ -277,17 +202,11 @@ img.img-team-pic {
     max-width: 100%;
     border-radius: 10px;
     padding-left: 2rem;
+
+    @media (max-width: 768px) {
+        padding-left: 0px;
+    }
 }
-
-
-
-
-
-
-
-
-
-
 
 .alignfull.border {
 

@@ -5,8 +5,6 @@ import React, { useEffect, useRef, useState } from "react";
 import CardGrid from "./card";
 import SplideComponent from "./moile-video-slider";
 import CardGridSlider from "./card-slider";
-// import { ContentOmc } from "./4section-content-why-choose-omc/content-omc-digital-marketing";
-// import ClientLogo from "./Owl-slider-client-logo/client-logo";
 import { CaseStudy } from "./case study/case-study";
 import "../../../App.css"
 import "./4section-content-why-choose-omc/contentOmc.css"
@@ -80,32 +78,31 @@ export const Home = () => {
 
 
 
-  // Create a custom variant for animations
   const itemVariants = {
     hidden: { y: 200, opacity: 0 },
     visible: { y: 0, opacity: 1 },
   };
 
-  // Use the inView hook to trigger animations
+
   const [refhome1, inViewhome1] = useInView({
-    triggerOnce: true, // Trigger animation only once
-    threshold: 0.1, // Adjust this threshold as needed
+    triggerOnce: true,
+    threshold: 0.1,
   });
   const [refhome2, inViewhome2] = useInView({
-    triggerOnce: true, // Trigger animation only once
-    threshold: 0.1, // Adjust this threshold as needed
+    triggerOnce: true,
+    threshold: 0.1,
   });
   const [refhome3, inViewhome3] = useInView({
-    triggerOnce: true, // Trigger animation only once
-    threshold: 0.1, // Adjust this threshold as needed
+    triggerOnce: true,
+    threshold: 0.1,
   });
   const [refhome4, inViewhome4] = useInView({
-    triggerOnce: true, // Trigger animation only once
-    threshold: 0.1, // Adjust this threshold as needed
+    triggerOnce: true,
+    threshold: 0.1,
   });
 
-
   return <>
+
     <section className="hero-section-container">
       {/*--------------------     background video first section of home page start     ---------------- */}
       <section className="home-first-section-background-video-container">
@@ -127,12 +124,10 @@ export const Home = () => {
       {/*--------------------     background video first section of home page end    ---------------- */}
       <div className="mobiles">
         <div className="ad-heading-container">
-          {/* <div className="ad-head">
-            <h3 className="advertisment-text-heading heading-all-component-font-style">ADVERTISEMENT</h3>
-          </div> */}
+
         </div>
         {
-          // isMobileView ? <SplideComponent /> : <Mobile_video />
+
           isMobileView ? <SplideComponent /> : <MobileVideo />
         }
       </div>
@@ -148,9 +143,9 @@ export const Home = () => {
             <div className="child-container-card-style">
               <motion.div
 
-                ref={refhome1} // Attach the ref to the container
+                ref={refhome1}
                 initial="hidden"
-                animate={inViewhome1 ? "visible" : "hidden"} // Animate when inView is true
+                animate={inViewhome1 ? "visible" : "hidden"}
                 variants={itemVariants}
 
               >
@@ -164,11 +159,11 @@ export const Home = () => {
                         Brandformance<br />
                         Performance Marketing<br />
                         Growth Marketing<br />
-                        Digital Strategies <br/>
-                        Inbound Marketing <br/>
-                        Lead Generation <br/>
-                        Digital Strategies <br/>
-                        Keyword Research <br/>
+                        Digital Strategies <br />
+                        Inbound Marketing <br />
+                        Lead Generation <br />
+                        Digital Strategies <br />
+                        Keyword Research <br />
                         Content Strategy
                       </p>
                     </div>
@@ -188,18 +183,9 @@ export const Home = () => {
         </div>
       </section>
 
-
-
       {/*--------------------  section 3 card what we do close      ---------------- */}
       {/*--------------------  section 4 content why choose omc      ---------------- */}
-      {/*--------------------  section 4 content why choose omc      ---------------- */}
-      {/*--------------------  section 4 content why choose omc      ---------------- */}
-      {/*--------------------  section 4 content why choose omc      ---------------- */}
-      {/*--------------------  section 4 content why choose omc      ---------------- */}
-      {/* <section className="content-why-choose-omc">
 
-        <ContentOmc />
-      </section> */}
       <div className="content-omc-why-choose-omc-container">
 
         <div className="content-omc-heading">
@@ -211,9 +197,9 @@ export const Home = () => {
         <div className="content-para-why-choose">
           <motion.div
 
-            ref={refhome4} // Attach the ref to the container
+            ref={refhome4}
             initial="hidden"
-            animate={inViewhome4 ? "visible" : "hidden"} // Animate when inView is true
+            animate={inViewhome4 ? "visible" : "hidden"}
             variants={itemVariants}
 
           >
@@ -236,9 +222,9 @@ export const Home = () => {
             </h3>
             <motion.div
 
-              ref={refhome3} // Attach the ref to the container
+              ref={refhome3}
               initial="hidden"
-              animate={inViewhome3 ? "visible" : "hidden"} // Animate when inView is true
+              animate={inViewhome3 ? "visible" : "hidden"}
               variants={itemVariants}
 
             >
@@ -257,15 +243,19 @@ export const Home = () => {
             </p>
           </div>
           <div className="img-team ">
-            <img className="img-team-pic" src={process.env.PUBLIC_URL + '/assets/OMC-picture/pexels-mikael-blomkvist-6476260.jpg'} alt="team pic" />
+            <img className="img-team-pic"
+             src={process.env.PUBLIC_URL + '/assets/OMC-picture/pexels-mikael-blomkvist-6476260.jpg'} 
+             alt="team pic"
+             loading="lazy"
+             />
           </div>
         </div>
 
         <motion.div
 
-          ref={refhome2} // Attach the ref to the container
+          ref={refhome2}
           initial="hidden"
-          animate={inViewhome2 ? "visible" : "hidden"} // Animate when inView is true
+          animate={inViewhome2 ? "visible" : "hidden"}
           variants={itemVariants}
 
         >
@@ -280,27 +270,11 @@ export const Home = () => {
           </div>
         </motion.div>
       </div>
-      {/*--------------------  section 4 content why choose omc      ----------------*/}
-      {/*--------------------  section 4 content why choose omc      ----------------*/}
-      {/*--------------------  section 4 content why choose omc      ----------------*/}
-      {/*--------------------  section 4 content why choose omc      ----------------*/}
-      {/*--------------------  section 4 content why choose omc      ----------------*/}
-      {/*--------------------  section 4 content why choose omc      ----------------*/}
-      {/*--------------------  section 4 content why choose omc      ----------------*/}
-      {/*--------------------  section 4 content why choose omc      ----------------*/}
-
-
       {/*--------------------  section 5 content why choose omc      ----------------*/}
       <CaseStudy />
       {/*--------------------  section 5 content why choose omc      ----------------*/}
-
-
       {/*--------------------  section 6 client-logo   ----------------*/}
-      {/* <section className="Owl-slider-client-logo-container">
-        <ClientLogo />
-      </section> */}
-      {/*--------------------  section 6 client-logo   ----------------*/}
-      <ParallaxComponent/>
+      <ParallaxComponent />
       <ClientLogosss />
     </section>
 

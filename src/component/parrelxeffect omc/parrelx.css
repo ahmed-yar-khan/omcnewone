@@ -4,10 +4,10 @@
   overflow: hidden;
 }
 .parallax-image {
-  height: 100vh; /* Set the height of the Parallax component to the viewport height */
-  background-size: cover; /* Make the background image cover the entire component */
+ 
+  background-size: cover; 
   background-repeat: no-repeat;
-  background-attachment: fixed; /* Optional: Keep the background fixed while scrolling */
+  background-attachment: fixed; 
 }
 img.logo {
   margin: auto;
@@ -48,7 +48,7 @@ img.react-parallax-bgimage{
   width: 100%;
   max-width: none;
   height: auto;
-  transform: translate3d(0, 0, 0); /* Add hardware acceleration for smoother parallax */
+  transform: translate3d(0, 0, 0); 
   transition: transform 0.4s ease-in-out;
 }
 
@@ -59,7 +59,7 @@ img.react-parallax-bgimage{
   padding: 100px 0;
 }
 
-/* Add this CSS for the parallax effect */
+
 .parallax-container::after {
   content: '';
   position: absolute;
@@ -68,29 +68,34 @@ img.react-parallax-bgimage{
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: rgba(0, 0, 0, 0.3); /* Optional overlay for better readability */
+  background: rgba(0, 0, 0, 0.3); 
 }
 
-/* Add this CSS for the parallax effect */
 .parallax-container:hover .parallax-bg-image {
-  transform: translate3d(0, 20px, 0); /* Adjust the translation value for desired parallax effect */
+  transform: translate3d(0, 20px, 0); 
 }
 
-/* Responsive Styles (you can adjust these as needed) */
 @media (max-width: 768px) {
   .parallax-container {
     height: auto;
   }
-
+  img.react-parallax-bgimage {
+    object-fit: cover;
+    object-position: left;
+}
   .parallax-content {
     padding: 50px 0;
   }
 
   .parallax-content h1 {
-    font-size: 28px;
+    font-size: 18px;
   }
 
   .parallax-content p {
     font-size: 16px;
   }
+  img.logo {
+
+    width: 200px;
+}
 }

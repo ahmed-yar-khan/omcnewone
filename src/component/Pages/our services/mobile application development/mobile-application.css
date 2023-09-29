@@ -8,6 +8,7 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column-reverse;
+        padding: 20px !important;
     }
 
     .img-mobile-laptop {
@@ -23,6 +24,10 @@
 
     .mobile-container {
         flex-wrap: wrap;
+        padding: 20px!important;
+    }
+    h2.promise-title {
+        margin-bottom: 1rem!important;
     }
 
     img.tec-img {
@@ -30,15 +35,18 @@
         max-width: 100%;
     }
 
-    /* h2.heading-mobile-title {
-        font-size: 21px !important;
-        padding: 1rem;
-    } */
     h2.title-mobile,
     h2.promise-title,
     h2.heading-mobile-title {
-        font-size: 1.5rem !important;
-        padding: 1rem;
+        font-size: 18px !important;
+        padding: 20px 0px;
+    }
+    .container-sectiion1 {
+
+        padding: 20px 20px!important;
+    }
+    h2.title-mobile {
+        margin-bottom: 0px!important;
     }
 
 }
@@ -55,7 +63,8 @@ h2.title-mobile {
 }
 
 p.para-cntent-mobile-appp {
-    margin-bottom: 1rem;
+    margin-bottom: 0.1rem;
+    text-align: justify;
 }
 
 .container-sectiion1 {
@@ -87,7 +96,6 @@ p.para-mobile-application {
     text-align: justify;
     width: 100%;
     margin: auto;
-    /* padding: 0rem 2rem; */
 }
 
 .contact-link-mobile-application {
@@ -122,7 +130,6 @@ h2.heading-mobile-title {
     font-size: 2em;
     font-weight: 600;
     color: black;
-    /* margin-top: 3rem; */
 }
 
 

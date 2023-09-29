@@ -5,6 +5,7 @@ input#exampleFormControlInput1 {
 footer.bg-neutral-900.text-center.text-white {
     background: #010202f7 !important;
 }
+
 .Footer-container.px-6.pt-6.\.bg-gray-500 {
     background: #f0f0f0;
 }
@@ -14,15 +15,19 @@ element.style {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
 p.footer-para-text {
     text-align: justify;
 }
+
 .grid-checking-style {
     text-align: initial;
 }
+
 .footer.mb-6 {
     max-width: 100%;
 }
+
 .online-container-foorter {
     display: inline-flex;
     flex-direction: column;
@@ -30,6 +35,7 @@ p.footer-para-text {
     max-width: 100%;
     width: 645px;
 }
+
 .display-flex-footer {
     display: flex;
     flex-wrap: wrap;
@@ -38,37 +44,27 @@ p.footer-para-text {
     align-items: baseline;
     color: black;
 }
+
 h2.online-media-footer {
     font-size: 20px;
     margin-bottom: 10px;
-}ul.mb-0.list-none {
+}
+
+ul.mb-0.list-none {
     color: white;
 }
-/* @media (min-width: 1024px){
-
-    .lg\:grid-cols-4 {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
-} */
 
 .p-4.text-center.paragrapg-all-component-font-family {
-    background-color: rgb(216 216 216)!important;
+    background-color: rgb(216 216 216) !important;
     color: black;
 }
 
 a.m-1.h-9.w-9.rounded-full.border-2.border-white.uppercase.leading-normal.text-white.transition.duration-150.ease-in-out.hover\:bg-black.hover\:bg-opacity-5.focus\:outline-none.focus\:ring-0 {
     border: 1px solid #f0f0f0;
-    background-image: linear-gradient(180deg,#00bbbe,#056c6e);
+    background-image: linear-gradient(180deg, #00bbbe, #056c6e);
     color: white;
 }
+
 .text-white {
     color: black;
 }
-
-
-/* a.m-1.h-9.w-9.rounded-full.border-2.border-white.uppercase.leading-normal.text-white.transition.duration-150.ease-in-out.hover\:bg-black.hover\:bg-opacity-5.focus\:outline-none.focus\:ring-0:hover {
-    color: #8d8c8c;
-} */
-/* path:hover {
-   
-} */

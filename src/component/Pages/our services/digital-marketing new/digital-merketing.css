@@ -1,7 +1,6 @@
 .digital-img {
     max-width: 100%;
     width: 100%;
-    /* background-image: url("/public/assets/backgroundimg/backgroung/digitalmarketing-banner\ \(2\).jpg"); */
     background-image: url("/public/assets/backgroundimg/section-imgs/how-digital-marketing-works.jpg");
     background-size: cover;
     background-position: top;
@@ -33,9 +32,11 @@ img.img-mobile-app {
     width: 100%;
     height: 250px;
     max-width: 100% !important;
-}img.img-mobile-app {
-    width: 650px!important;
-    height: 400px!important;
+}
+
+img.img-mobile-app {
+    width: 650px !important;
+    height: 400px !important;
 }
 
 @media screen and (max-Width : 800px) {
@@ -51,6 +52,11 @@ img.img-mobile-app {
 
     }
 
+    p.para-p-video-advertising.paragrapg-all-component-font-family {
+        text-align: justify;
+        padding-bottom: 20px;
+    }
+
     h1.titale-promotion.heading-all-component-font-style {
         font-size: 17px !important;
         padding-top: 25px;
@@ -60,19 +66,36 @@ img.img-mobile-app {
 
         flex-wrap: wrap;
     }
+
     h1.heading-all-component-font-style {
-        font-size: 18px!important;
+        font-size: 18px !important;
     }
+
     .content-background-img-fixed-container {
-        padding: 1rem!important;
+        padding: 1rem !important;
     }
+
     .c {
         width: 100%;
         text-align: center;
     }
+
     .section-padding-mobile-view {
-        padding: 1rem;
+        padding: 20px !important;
     }
+
+    .heading-digital-marketing-agency {
+        padding: 20px 20px !important;
+        font-size: 18px !important;
+    }
+
+    h5.title-video-advertising {
+        font-size: 18px !important;
+    }
+}
+
+.section-padding-mobile-view {
+    padding: 10px;
 }
 
 .digitalsection.right {
@@ -94,28 +117,6 @@ img.img-mobile-app {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================3rd section content      ================ */
 
 
@@ -124,6 +125,7 @@ img.img-mobile-app {
     width: 1144px;
     max-width: 100%;
     margin: auto;
+    padding: 10px;
 }
 
 .content-2content {
@@ -136,6 +138,7 @@ img.img-mobile-app {
 
 p.para-p-video-advertising.paragrapg-all-component-font-family {
     color: black;
+
 }
 
 .acontent {
@@ -160,9 +163,11 @@ h1.titale-promotion {
     text-align: center;
     /* color: black; */
 }
+
 h1.contact-head.heading-all-component-font-style {
     color: rgb(255 255 255);
 }
+
 h1.heading-all-component-font-style {
     color: rgb(0, 0, 0);
     font-size: 30px;
@@ -179,11 +184,6 @@ h1 {
     font-size: 3.2rem;
     padding-top: 2rem;
 }
-
-/* h1+p {
-    font-size: 1.8rem;
-    padding: 2rem 0 3rem;
-} */
 
 .main {
     display: flex;
@@ -222,19 +222,19 @@ h1 {
 
 .background1 {
     background: url("/public/assets/backgroundimg/backgroung/branding.png") center/cover;
-  }
-  
-  .background2 {
+}
+
+.background2 {
     background: url("/public/assets/backgroundimg/backgroung/setupCoustomdesgin.jpg") center/cover;
-  }
-  
-  .background3 {
+}
+
+.background3 {
     background: url("/public/assets/backgroundimg/backgroung/social-mobile.jpg") center/cover;
-  }
-  
-  .background4 {
+}
+
+.background4 {
     background: url("/public/assets/backgroundimg/backgroung/social\ media.jpg") center/cover;
-  }
+}
 
 .container::before,
 .container::after {
@@ -266,7 +266,7 @@ h1 {
 
 .container p {
     color: hsl(0, 0%, 100%);
-    font-size: 2.2rem!important;
+    font-size: 2.2rem !important;
     filter: drop-shadow(2px 2px 1px black);
 }
 

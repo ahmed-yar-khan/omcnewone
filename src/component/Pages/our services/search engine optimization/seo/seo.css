@@ -1,4 +1,3 @@
-
 .seoimg {
     background-image: url("/public/assets/backgroundimg/backgroung/seo.jpg");
     background-position: center;
@@ -11,13 +10,15 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .seo-title {
-    font-size: 43px!important;
-    color: black!important;
+    font-size: 43px !important;
+    color: black !important;
 }
+
 .seo-title-color {
-    color: black!important;
-  
+    color: black !important;
+
 }
 
 .content-seo-main-section-one {
@@ -32,15 +33,16 @@
 
 @media screen and (max-width:1000px) {
     .content-seo-main-section-one {
-
+        padding: 20px !important;
         flex-wrap: wrap;
     }
 
     .child-seo-paragrapg {
-        margin-left: 20px;
+        margin-left: 0px;
     }
+
     .seo-title {
-        font-size: 33px!important;
+        font-size: 33px !important;
     }
 
 }
@@ -59,9 +61,11 @@ h2.title-seo-headind {
     padding-top: 1.7rem;
     padding-bottom: 1.7rem;
 }
+
 .content-seo-one {
     padding-right: 1.5rem;
 }
+
 .just-content-para-seo {
     /* padding: 0rem 1rem; */
     text-align: justify;
@@ -101,10 +105,6 @@ p.para-seo-content {
 }
 
 .card-search-seo {
-    /* padding: 1rem; */
-    /* padding-left: 3rem; */
-    /* padding-top: 2rem;
-    padding-bottom: 3rem; */
     text-align: justify;
 }
 
@@ -130,11 +130,13 @@ p.p-seo-content {
     margin: auto;
     font-weight: 900;
 }
+
 .container-content-card-seo {
     max-width: 100%;
     width: 2500px;
     margin: auto;
 }
+
 .title-seo-head {
     width: fit-content;
     border-bottom: 10px solid #1cc0c3;
@@ -169,8 +171,16 @@ img.icon-seo-tecnical {
         width: 100%;
     }
 
+    .content-seo-one {
+        padding-right: 0px !important;
+    }
+
+    h2.title-headin {
+        font-size: 18px !important;
+    }
+
     .card-seo-big-card-content-container {
-        padding: 0rem 1rem;
+        padding: 0rem 20px;
     }
 
     .content-card-one {
@@ -187,27 +197,15 @@ img.icon-seo-tecnical {
         justify-content: center;
     }
 
-    .card-search-seo {
-        padding-left: 1rem;
-    }
-
     img.icon-seo-tecnical {
         max-width: 127px;
     }
+
     h2.title-tiktok {
-        font-size: 30px!important;
-     
+        font-size: 30px !important;
+
     }
 }
-
-
-
-
-
-
-
-
-
 
 .card-seo-big-card-content-container.right-card {
     display: flex;
@@ -215,70 +213,7 @@ img.icon-seo-tecnical {
     align-items: flex-end;
 }
 
-/* .card-seo-big-card-content-container.left-card::after {
-    content: "";
-    width: 100px;
-    height: 100px;
-    background: url("/public/assets/icon/right-Direction-display-left.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    position: absolute;
-    left: 17%;
-} */
 
-/* .card-seo-big-card-content-container.left-card::after {
-    content: "";
-    width: none;
-    height: 100px;
-    background: url("/public/assets/icon/right-Direction-display-left.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    position: absolute;
-    left: 17%;
-} */
-
-
-
-/* .card-seo-big-card-content-container::before{
-    content: "";
-    width: 100px;
-    height: 100px;
-    background: url("/public/assets/icon/right-Direction-display-left.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    position: absolute;
-    right: 17%;
-    transform: rotateY(180deg);
-} */
-/* img.img-seo-case-ticktok {
-    max-width: 100%;
-    width: 100%;
-}
-.img-seo-ticktok-img {
-    max-width: 100%;
-    width: 50%;
-}
-.content-child-container-casestudy {
-    display: flex;
-    column-gap: 50px;
-}
-h4.ticktok-content {
-    font-size: 30px;
-    font-weight: 800;
-    color: black;
-}
-.content-seo-tiktok-casestudy {
-    max-width: 100%;
-    width: 80%;
-    text-align: justify;
-}
-.content-seo-tiktok-casestudy {
-    max-width: 100%;
-    width: 50%;
-} */
 .casestudy-seo-img {
     max-width: 100%;
 }
@@ -338,17 +273,5 @@ p.tiktok-para-cs.text-neutral-500.dark\:text-neutral-300 {
 .seo-casestudycontainer.mx-auto.md\:px-6 {
     padding: 0rem 4rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ================section1 seo background ================ */

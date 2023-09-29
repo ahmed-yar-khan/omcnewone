@@ -1,4 +1,4 @@
-import './digital-merketing.css'; // Make sure to import your CSS file with the correct name.
+import './digital-merketing.css'; 
 import '../../../../App.css';
 import React, { useEffect } from 'react';
 import { motion } from "framer-motion";
@@ -8,13 +8,13 @@ export const DigitalSolution = () => {
 
   const data = [
     {
-      img: '/assets/backgroundimg/backgroung/Video-Advertising (1).png',
+      img: '/assets/backgroundimg/backgroung/video.png',
       heading: 'Video Advertising',
       text:
         'Compared to traditional television advertising, Online video advertising can immediately invite large-scale viewers from different platforms to interact with the advertisement with lower costs to the business.',
     },
     {
-      img: '/assets/backgroundimg/backgroung/PPC (2).png',
+      img: '/assets/backgroundimg/ppcbgremover.png',
       heading: 'PPC Remarketing',
       text:
         'PPC Remarketing services are the techniques that are aimed at bringing consumers from the dynamic platforms through remarketing your ads on a strategy based on your business goals and targets.',
@@ -33,17 +33,14 @@ export const DigitalSolution = () => {
     },
   ];
 
-
-    // Create a custom variant for animations
     const itemVariants = {
       hidden: { y: 200, opacity: 0 },
       visible: { y: 0, opacity: 1 },
     };
 
-    // Use the inView hook to trigger animations
     const [refdigital1, inViewdigital1] = useInView({
-      triggerOnce: true, // Trigger animation only once
-      threshold: 0.1, // Adjust this threshold as needed
+      triggerOnce: true,
+      threshold: 0.1,
     });
 
 
@@ -113,7 +110,6 @@ export const DigitalSolution = () => {
 
 
     return () => {
-      // Clean up event listeners if necessary
       cardContainers.forEach((container, index) => {
         const tiltEffect = index % 2 === 0 ? 'reverse' : 'normal';
 
@@ -147,9 +143,9 @@ export const DigitalSolution = () => {
         <div className="container-section-digital">
           <motion.div
               className='section-padding-mobile-view'
-            ref={refdigital1} // Attach the ref to the container
+            ref={refdigital1} 
             initial="hidden"
-            animate={inViewdigital1 ? "visible" : "hidden"} // Animate when inView is true
+            animate={inViewdigital1 ? "visible" : "hidden"} 
             variants={itemVariants}
     
           >

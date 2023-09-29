@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ContactSection2 } from './contact-section-2';
 import "./contact.css"
-import"../../App.css"
+import "../../App.css"
 const Contact = () => {
 
     useEffect(() => {
@@ -29,20 +29,9 @@ const Contact = () => {
         };
     }, []);
 
-
-
-
-
-
-
-
-
-
-
     let form = useRef();
 
     const sendEmail = (e) => {
-        console.log(e)
         e.preventDefault();
 
         emailjs.sendForm('service_uhy07y7', 'template_w6nki6e', form.current, 'tJt0Bw0u9kJ_Gpql4')
@@ -96,8 +85,6 @@ const Contact = () => {
 
             </div>
             <ContactSection2 />
-
-
             <section className="contact-form spad">
                 <div className="contact-form-container">
                     <div className="contact-form-row-row">
@@ -105,7 +92,7 @@ const Contact = () => {
                             <div className=" contact-form-contact__text contact__text">
 
                                 <div className="map">
-                                      <iframe
+                                    <iframe
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14446.678532915253!2d67.05817319999999!3d24.892754750000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33d8fcf8bc5bb%3A0x53b50a7799bb6ac8!2sBahadurabad%20Charminar%20Chowrangi!5e0!3m2!1sen!2s!4v1685652503512!5m2!1sen!2s&markers=color:red%7C24.892754750000002,67.05817319999999"
                                         height={300}
                                         style={{ border: 0 }}
@@ -113,8 +100,8 @@ const Contact = () => {
                                         aria-hidden="false"
                                         tabIndex={0}
                                         title='map'
-                                    /> 
-                                    
+                                    />
+
                                 </div>
                             </div>
                         </div>
@@ -125,12 +112,11 @@ const Contact = () => {
                                     <h1 className=" heading-title-question heading-all-component-font-style">Have Any Questions?</h1>
                                 </div>
                                 <div className="heading-decoration">
-                                <div className="h5 heading-text">Please contact us using the form and we’ll get back to you as soon as possible.</div>
-                            </div>
+                                    <div className="h5 heading-text">Please contact us using the form and we’ll get back to you as soon as possible.</div>
+                                </div>
                             </header>
 
                             <div className="contact-form-main-contact contact__form">
-                                {/* <form > */}
                                 <form ref={form} onSubmit={sendEmail}>
 
                                     <div className="contact-form-main-row">

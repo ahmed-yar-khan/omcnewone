@@ -21,13 +21,13 @@ function App() {
 
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/contact us" element={<Contact />} />
-          <Route path="/About us" element={<About />} />
-          <Route path="/digital soloution" element={<DigitalSolution />} />
-          <Route path="/mobile application development" element={<MobileApplication />} />
-          <Route path="/search engine optimization" element={<SearchEngine />} />
-          <Route path="/system integration" element={<SystemIntegration />} />
-          <Route path="/website design and development" element={<WebDesgin />} />
+          <Route path="/contact-us" element={<Contact />} />
+          <Route path="/About-us" element={<About />} />
+          <Route path="/digital-soloution" element={<DigitalSolution />} />
+          <Route path="/mobile-application-development" element={<MobileApplication />} />
+          <Route path="/search-engine-optimization" element={<SearchEngine />} />
+          <Route path="/system-integration" element={<SystemIntegration />} />
+          <Route path="/website-design-and-development" element={<WebDesgin />} />
 
           <Route path="*" element={<NotFound />} />
 

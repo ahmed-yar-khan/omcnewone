@@ -1,6 +1,6 @@
 import React from 'react';
-import { Parallax } from 'react-parallax'; // Import Parallax from the library
-import './parrelx.css'; // Import your CSS file for styling
+import { Parallax } from 'react-parallax'; 
+import './parrelx.css'; 
 import { Link } from 'react-router-dom';
 
 const ParallaxComponent = () => {
@@ -11,9 +11,10 @@ const ParallaxComponent = () => {
           src="/assets/OMC-picture/omc-logo.png"
           alt="Big Logo"
           className="logo"
+          loading="lazy"
         />
         <h1 className='online-sucess-begins'>Online Media Circle: Where Your Online Marketing Success Begins!</h1>
-        <Link to="/contact us">
+        <Link to="/contact-us">
           <button className='contact-us-btn-parralx'>Contact Us</button>
         </Link>
       </div>

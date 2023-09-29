@@ -13,23 +13,21 @@ const cardsData = [
 ];
 
 const CardGrid = () => {
-      // Create a custom variant for animations
   const itemVariants = {
     hidden: { y: 200, opacity: 0 },
     visible: { y: 0, opacity: 1 },
   };
 
-  // Use the inView hook to trigger animations
   const [refcard, inViewcard] = useInView({
-    triggerOnce: true, // Trigger animation only once
-    threshold: 0.1, // Adjust this threshold as needed
+    triggerOnce: true, 
+    threshold: 0.1, 
   });
     return (
             <motion.div
 
-                ref={refcard} // Attach the ref to the container
+                ref={refcard} 
                 initial="hidden"
-                animate={inViewcard ? "visible" : "hidden"} // Animate when inView is true
+                animate={inViewcard ? "visible" : "hidden"}
                 variants={itemVariants}
 
             >

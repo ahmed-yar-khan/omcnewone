@@ -1,8 +1,7 @@
 import "./home.css";
-// import mux from "mux-embed";
 import React, { useEffect, useRef } from "react";
 import { useInView } from "react-intersection-observer";
-import"../../../App.css"
+import "../../../App.css"
 export const MobileVideo = () => {
 
 
@@ -20,10 +19,6 @@ export const MobileVideo = () => {
       });
     }
   }, [inViewVideo]);
-
-
- 
-
 
   const video = [
     {
@@ -54,7 +49,8 @@ export const MobileVideo = () => {
                 <div className={`mobile-fram ${videoInView ? 'animate-slide-right' : ''}`}>
                   <img
                     src="https://uploads-ssl.webflow.com/6247189edcd451f2855e1f96/63a5e6058c5e5c486081afa0_iphoneContainer.svg"
-                    alt=""
+                    alt="mobile-iphone"
+                    loading="lazy"
                   ></img>
                 </div>
                 <div

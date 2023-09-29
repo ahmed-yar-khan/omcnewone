@@ -6,25 +6,23 @@ import { useInView } from "react-intersection-observer";
 import ParallaxComponent from "../../../parrelxeffect omc/parrelxeffect";
 export const MobileApplication = () => {
 
-
-  // Create a custom variant for animations
   const itemVariants = {
     hidden: { y: 100, opacity: 0 },
     visible: { y: 0, opacity: 1 },
   };
 
-  // Use the inView hook to trigger animations
+
   const [refwebsite1, inViewwebsite1] = useInView({
-    triggerOnce: true, // Trigger animation only once
-    threshold: 0.1, // Adjust this threshold as needed
+    triggerOnce: true,
+    threshold: 0.1,
   });
   const [refwebsite2, inViewwebsite2] = useInView({
-    triggerOnce: true, // Trigger animation only once
-    threshold: 0.1, // Adjust this threshold as needed
+    triggerOnce: true, 
+    threshold: 0.1, 
   });
   const [refwebsite3, inViewwebsite3] = useInView({
-    triggerOnce: true, // Trigger animation only once
-    threshold: 0.1, // Adjust this threshold as needed
+    triggerOnce: true, 
+    threshold: 0.1, 
   });
 
 
@@ -33,13 +31,17 @@ export const MobileApplication = () => {
 
       <div className="container-sectiion1">
         <div className="mobile-app">
-          <img className="img-mobile-appli" src="/assets/backgroundimg/section-imgs/4631454-removebg-preview.png" alt="asd"/>
+          <img className="img-mobile-appli" 
+          src="/assets/backgroundimg/section-imgs/4631454-removebg-preview.png" 
+          alt="asd"
+          loading="lazy"
+          />
         </div>
         <motion.div
 
-          ref={refwebsite1} // Attach the ref to the container
+          ref={refwebsite1} 
           initial="hidden"
-          animate={inViewwebsite1 ? "visible" : "hidden"} // Animate when inView is true
+          animate={inViewwebsite1 ? "visible" : "hidden"} 
           variants={itemVariants}
           transition={{ duration: 1, ease: "linear" }}
         >
@@ -69,9 +71,9 @@ export const MobileApplication = () => {
         <div className="backgroung-white-img-content">
           <motion.div
 
-            ref={refwebsite2} // Attach the ref to the container
+            ref={refwebsite2} 
             initial="hidden"
-            animate={inViewwebsite2 ? "visible" : "hidden"} // Animate when inView is true
+            animate={inViewwebsite2 ? "visible" : "hidden"} 
             variants={itemVariants}
             transition={{ duration: 1, ease: "linear" }}
           >
@@ -85,13 +87,17 @@ export const MobileApplication = () => {
               </p>
               <div className="btn-mobil-application-contact-link">
 
-                <Link to="/contact us" >
+                <Link to="/contact-us" >
                   <button className="contact-link-mobile-application heading-all-component-font-style">Tell Us About Your Project</button>
                 </Link>
               </div>
             </div>
           </motion.div>
-          <img className="tec-img" src="/assets/backgroundimg/mob-techs.jpg" alt="" />
+          <img className="tec-img" 
+          src="/assets/backgroundimg/mob-techs.jpg" 
+          alt="mob-techs"
+          loading="lazy"
+          />
         </div>
       </div>
 
@@ -100,15 +106,18 @@ export const MobileApplication = () => {
       <div className="new-section-main-mobilecontainer">
         <div className="mobile-container" >
           <div className="img-mobile-laptop">
-            {/* <img className="img-mobile-lap" src="/assets/backgroundimg/devices-2x-dev.webp" alt="" /> */}
-            <img className="img-mobile-lap" src="/assets/backgroundimg/features-mobile.png" alt="" />
+            <img className="img-mobile-lap" 
+            src="/assets/backgroundimg/features-mobile.png" 
+            alt="feature-mobile" 
+            loading="lazy"
+            />
           </div>
           <div className="mobile-application-content-container">
             <motion.div
 
-              ref={refwebsite3} // Attach the ref to the container
+              ref={refwebsite3} 
               initial="hidden"
-              animate={inViewwebsite3? "visible" : "hidden"} // Animate when inView is true
+              animate={inViewwebsite3? "visible" : "hidden"} 
               variants={itemVariants}
               transition={{ duration: 1, ease: "linear" }}
             >

@@ -1,38 +1,32 @@
 import React from 'react';
-import './si.css'; // Make sure to import your CSS file
+import './si.css'; 
 import "../../../../../App.css"
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import ParallaxComponent from '../../../../parrelxeffect omc/parrelxeffect';
 export const SystemIntegration = () => {
 
-
-
-  // Create a custom variant for animations
   const itemVariants = {
     hidden: { y: 100, opacity: 0 },
     visible: { y: 0, opacity: 1 },
   };
 
-  // Use the inView hook to trigger animations
   const [refwebsite1, inViewwebsite1] = useInView({
-    triggerOnce: true, // Trigger animation only once
-    threshold: 0.1, // Adjust this threshold as needed
+    triggerOnce: true, 
+    threshold: 0.1, 
   });
   const [refwebsite2, inViewwebsite2] = useInView({
-    triggerOnce: true, // Trigger animation only once
-    threshold: 0.1, // Adjust this threshold as needed
+    triggerOnce: true, 
+    threshold: 0.1, 
   });
   const [refwebsite3, inViewwebsite3] = useInView({
-    triggerOnce: true, // Trigger animation only once
-    threshold: 0.1, // Adjust this threshold as needed
+    triggerOnce: true, 
+    threshold: 0.1, 
   });
   const [refwebsite4, inViewwebsite4] = useInView({
-    triggerOnce: true, // Trigger animation only once
-    threshold: 0.1, // Adjust this threshold as needed
+    triggerOnce: true, 
+    threshold: 0.1, 
   });
-
-
 
 
   return (
@@ -42,15 +36,19 @@ export const SystemIntegration = () => {
           <div className="overview-container-si">
             <div className="border-radius">
               <div className="img-si">
-                <img className="si-img" src="/assets/backgroundimg/section-imgs/about-us.png" alt="si" />
+                <img className="si-img" 
+                src="/assets/backgroundimg/section-imgs/about-us.png" 
+                alt="si" 
+                loading="lazy"
+                />
               </div>
             </div>
             <div className="content-main">
               <motion.div
 
-                ref={refwebsite1} // Attach the ref to the container
+                ref={refwebsite1} 
                 initial="hidden"
-                animate={inViewwebsite1 ? "visible" : "hidden"} // Animate when inView is true
+                animate={inViewwebsite1 ? "visible" : "hidden"} 
                 variants={itemVariants}
                 transition={{ duration: 1, ease: "linear" }}
               >
@@ -79,7 +77,11 @@ export const SystemIntegration = () => {
       </div>
 
       <div className='si-data-img-div'>
-        <img className='si-data-img' src='/assets/backgroundimg/si.png' alt='' />
+        <img className='si-data-img' 
+        src='/assets/backgroundimg/si.png' 
+        alt='si-img' 
+        loading="lazy"
+        />
       </div>
       <div className="si-container-card-animated">
 
@@ -90,16 +92,16 @@ export const SystemIntegration = () => {
             <div className="col-md-3 col-sm-6">
               <motion.div
 
-                ref={refwebsite2} // Attach the ref to the container
+                ref={refwebsite2} 
                 initial="hidden"
-                animate={inViewwebsite2 ? "visible" : "hidden"} // Animate when inView is true
+                animate={inViewwebsite2 ? "visible" : "hidden"} 
                 variants={itemVariants}
                 transition={{ duration: 1, ease: "linear" }}
               >
 
                 <div className="service_box">
                   <div className="service_icon">
-                    <img className='icon-img-si-card' src='/assets/icon/video (1).png' alt='video icon' />
+                    <img className='icon-img-si-card' src='/assets/icon/video (1).png' alt='video icon' loading="lazy" />
                   </div>
                   <h3 className='heading-all-component-font-style '>Data Integration Services</h3>
                   <p className='paragrapg-all-component-font-family'>
@@ -111,16 +113,16 @@ export const SystemIntegration = () => {
             <div className="col-md-3 col-sm-6">
               <motion.div
 
-                ref={refwebsite3} // Attach the ref to the container
+                ref={refwebsite3} 
                 initial="hidden"
-                animate={inViewwebsite3 ? "visible" : "hidden"} // Animate when inView is true
+                animate={inViewwebsite3 ? "visible" : "hidden"} 
                 variants={itemVariants}
                 transition={{ duration: 1, ease: "linear" }}
               >
 
                 <div className="service_box">
                   <div className="service_icon">
-                    <img className='icon-img-si-card' src='/assets/icon/video (2).png' alt='video icon' />
+                    <img className='icon-img-si-card' src='/assets/icon/video (2).png' alt='video icon' loading="lazy" />
                   </div>
                   <h3 className='heading-all-component-font-style '>API Integration Services</h3>
                   <p className='paragrapg-all-component-font-family'>
@@ -136,16 +138,16 @@ export const SystemIntegration = () => {
             <div className="col-md-3 col-sm-6">
               <motion.div
 
-                ref={refwebsite4} // Attach the ref to the container
+                ref={refwebsite4} 
                 initial="hidden"
-                animate={inViewwebsite4 ? "visible" : "hidden"} // Animate when inView is true
+                animate={inViewwebsite4 ? "visible" : "hidden"}
                 variants={itemVariants}
                 transition={{ duration: 1, ease: "linear" }}
               >
 
                 <div className="service_box">
                   <div className="service_icon">
-                    <img className='icon-img-si-card' src='/assets/icon/video (3).png' alt='video icon' />
+                    <img className='icon-img-si-card' src='/assets/icon/video (3).png' alt='video icon' loading="lazy" />
 
                   </div>
                   <h3 className='heading-all-component-font-style '>Enterprise Application Services</h3>
@@ -158,16 +160,16 @@ export const SystemIntegration = () => {
             <div className="col-md-3 col-sm-6">
               <motion.div
 
-                ref={refwebsite4} // Attach the ref to the container
+                ref={refwebsite4} 
                 initial="hidden"
-                animate={inViewwebsite4 ? "visible" : "hidden"} // Animate when inView is true
+                animate={inViewwebsite4 ? "visible" : "hidden"} 
                 variants={itemVariants}
                 transition={{ duration: 1, ease: "linear" }}
               >
 
                 <div className="service_box">
                   <div className="service_icon">
-                    <img className='icon-img-si-card' src='/assets/icon/video (4).png' alt='video icon' />
+                    <img className='icon-img-si-card' src='/assets/icon/video (4).png' alt='video icon' loading="lazy"/>
                   
                   </div>
                   <h3 className='heading-all-component-font-style '>Service Oriented Architecture</h3>

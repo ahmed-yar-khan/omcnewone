@@ -34,15 +34,16 @@ const Navbar = () => {
       <div className="navbar-container">
         <div className={`navbar-logo ${isMenuOpen ? "active" : ""}`}>
           <Link to="/">
-            <img className="logo-img" src={process.env.PUBLIC_URL + "/assets/OMC-picture/omc-logo.png"} alt="" />
+            <img className="logo-img"
+             src={process.env.PUBLIC_URL + "/assets/OMC-picture/omc-logo.png"} 
+             alt="logo" 
+             loading="lazy"
+             />
           </Link>
-          {/* <div className="para">
-            <p className="onestop">one stop marketing shop</p>
-          </div> */}
         </div>
         <div className={`navbar-links ${isMenuOpen ? "active" : ""}`}>
           <Link className="navlink-header" to="/">Home</Link>
-          <Link className="navlink-header drop" to="/about us">About Us</Link>
+          <Link className="navlink-header drop" to="/about-us">About Us</Link>
 
 
 
@@ -52,11 +53,11 @@ const Navbar = () => {
               <span className="arrow"></span>
             </div>
             <ul className="dropdown-content" role="menu">
-              <li style={{ '--delay': 1 }}><Link to="/digital soloution">Digital Solution</Link></li>
-              <li style={{ '--delay': 2 }}><Link to="/mobile application development">Mobile Application Development</Link></li>
-              <li style={{ '--delay': 3 }}><Link to="/search engine optimization">Search Engine Optimization</Link></li>
-              <li style={{ '--delay': 4 }}><Link to="/system integration">System Integration</Link></li>
-              <li style={{ '--delay': 5 }}><Link to="/website design and development">Website Solution</Link></li>
+              <li style={{ '--delay': 1 }}><Link to="/digital-soloution">Digital Solution</Link></li>
+              <li style={{ '--delay': 2 }}><Link to="/mobile-application-development">Mobile Application Development</Link></li>
+              <li style={{ '--delay': 3 }}><Link to="/search-engine-optimization">Search Engine Optimization</Link></li>
+              <li style={{ '--delay': 4 }}><Link to="/system-integration">System Integration</Link></li>
+              <li style={{ '--delay': 5 }}><Link to="/website-design-and-development">Website Solution</Link></li>
 
 
 
@@ -64,7 +65,7 @@ const Navbar = () => {
           </div>
 
 
-          <Link className="navlink-header" to="/contact us">Contact Us</Link>
+          <Link className="navlink-header" to="/contact-us">Contact Us</Link>
         </div>
         <div className="container-number-serchbar">
           <div className="number-nav ">

@@ -78,7 +78,8 @@ function SplideComponent() {
                       <div className="mobile-fram">
                         <img
                           src="https://uploads-ssl.webflow.com/6247189edcd451f2855e1f96/63a5e6058c5e5c486081afa0_iphoneContainer.svg"
-                          alt=""
+                          alt="iphone"
+                          loading="lazy"
                         />
                       </div>
                       <div
@@ -98,6 +99,7 @@ function SplideComponent() {
                             src={item.name}
                             style={{ height: "100%", borderRadius: "20px" }}
                             key={index}
+                            loading="lazy"
                           />
                         </div>
                       </div>

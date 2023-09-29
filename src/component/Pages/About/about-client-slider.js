@@ -52,7 +52,11 @@ const SplideSlider = () => {
                   <div className='slider-client-comments'>
                     <div className='author-detail-with-img'>
                       <div className='client-img-comment-div'>
-                        <img className='CLIENT-IMG-COMMENTS' src={item.client_img} alt='the client-IMG' />
+                        <img className='CLIENT-IMG-COMMENTS'
+                         src={item.client_img} 
+                         alt='the client-IMG' 
+                         loading="lazy"
+                         />
                       </div>
                       <div className='client-author-name-and-ceo'>
                         <h2 className='auther-name heading-all-component-font-style'>

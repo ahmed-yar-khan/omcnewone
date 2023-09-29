@@ -16,11 +16,6 @@ section.mobile-section {
     width: none !important;
 }
 
-/* img,
-video {
-    max-width: 64%;
-    height: auto;
-} */
 img,
 video {
     max-width: 56%;
@@ -96,14 +91,6 @@ video.video-tag {
 /*---------------------    video section close    --------------------------*/
 /*---------------------    Advertisement text start    --------------------------*/
 
-/* h3.advertisment-text-heading {
-    color: #ff0000;
-    font-size: 3rem;
-    font-weight: 900;
-    padding-top: 5rem;
-    filter: drop-shadow(5px 5px 1px black);
-    font-family: system-ui;
-} */
 h3.advertisment-text-heading {
     font-size: 50px;
     padding-top: 5rem;
@@ -493,6 +480,13 @@ h3.heading-card-title {
     .card-grid {
         grid-template-columns: 1fr;
     }
+    img.img-team-pic {
+        padding-bottom: 20px!important;
+        padding-top: 20px!important;
+    }
+    .content-para-why-choose {
+        text-align: justify!important;
+    }
 }
 
 
@@ -512,9 +506,5 @@ h3.heading-card-title {
     display: flex;
     justify-content: center;
 }
-
-/* .splide__slide {
-    margin:0.3rem -1rem !important ;
-} */
 
 /*============================== owlcarsole end ===========================*/

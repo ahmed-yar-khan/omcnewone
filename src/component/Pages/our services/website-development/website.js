@@ -25,40 +25,38 @@ export const WebDesgin = () => {
         }
     }, [videoRef]);
 
-    // Create a custom variant for animations
     const itemVariants = {
         hidden: { y: 100, opacity: 0 },
         visible: { y: 0, opacity: 1 },
     };
 
-    // Use the inView hook to trigger animations
     const [refwebsite1, inViewwebsite1] = useInView({
-        triggerOnce: true, // Trigger animation only once
-        threshold: 0.1, // Adjust this threshold as needed
+        triggerOnce: true, 
+        threshold: 0.1, 
     });
     const [refwebsite2, inViewwebsite2] = useInView({
-        triggerOnce: true, // Trigger animation only once
-        threshold: 0.1, // Adjust this threshold as needed
+        triggerOnce: true, 
+        threshold: 0.1, 
     });
     const [refwebsite3, inViewwebsite3] = useInView({
-        triggerOnce: true, // Trigger animation only once
-        threshold: 0.1, // Adjust this threshold as needed
+        triggerOnce: true, 
+        threshold: 0.1, 
     });
     const [refwebsite4, inViewwebsite4] = useInView({
-        triggerOnce: true, // Trigger animation only once
-        threshold: 0.1, // Adjust this threshold as needed
+        triggerOnce: true, 
+        threshold: 0.1,
     });
     const [refwebsite5, inViewwebsite5] = useInView({
-        triggerOnce: true, // Trigger animation only once
-        threshold: 0.1, // Adjust this threshold as needed
+        triggerOnce: true, 
+        threshold: 0.1, 
     });
     const [refwebsite6, inViewwebsite6] = useInView({
-        triggerOnce: true, // Trigger animation only once
-        threshold: 0.1, // Adjust this threshold as needed
+        triggerOnce: true, 
+        threshold: 0.1, 
     });
     const [refwebsite7, inViewwebsite7] = useInView({
-        triggerOnce: true, // Trigger animation only once
-        threshold: 0.1, // Adjust this threshold as needed
+        triggerOnce: true, 
+        threshold: 0.1, 
     });
 
 
@@ -69,9 +67,9 @@ export const WebDesgin = () => {
                 <div className="content-container-display" >
                     <motion.div
 
-                        ref={refwebsite1} // Attach the ref to the container
+                        ref={refwebsite1} 
                         initial="hidden"
-                        animate={inViewwebsite1 ? "visible" : "hidden"} // Animate when inView is true
+                        animate={inViewwebsite1 ? "visible" : "hidden"} 
                         variants={itemVariants}
                         transition={{ duration: 1, ease: "linear" }}
                     >
@@ -109,9 +107,9 @@ export const WebDesgin = () => {
                     <div className="section2-web-soloution-content">
                         <motion.div
 
-                            ref={refwebsite2} // Attach the ref to the container
+                            ref={refwebsite2} 
                             initial="hidden"
-                            animate={inViewwebsite2 ? "visible" : "hidden"} // Animate when inView is true
+                            animate={inViewwebsite2 ? "visible" : "hidden"} 
                             variants={itemVariants}
                             transition={{ duration: 1, ease: "linear" }}
                         >
@@ -144,9 +142,9 @@ export const WebDesgin = () => {
                     <div className="section2-web-soloution-content-background-black ">
                         <motion.div
 
-                            ref={refwebsite3} // Attach the ref to the container
+                            ref={refwebsite3} 
                             initial="hidden"
-                            animate={inViewwebsite3 ? "visible" : "hidden"} // Animate when inView is true
+                            animate={inViewwebsite3 ? "visible" : "hidden"} 
                             variants={itemVariants}
                             transition={{ duration: 1, ease: "linear" }}
                         >
@@ -173,7 +171,6 @@ export const WebDesgin = () => {
                             src="/assets/video/clock-black-background.mp4"
                             loading="lazy"
                         />
-                        {/* <video className="video-side" src="/assets/video/clock-black-background.mp4" loop autoPlay /> */}
                     </div>
                 </div>
             </div>
@@ -189,15 +186,15 @@ export const WebDesgin = () => {
                             <div className="col-md-3 col-sm-6">
                                 <motion.div
 
-                                    ref={refwebsite4} // Attach the ref to the container
+                                    ref={refwebsite4} 
                                     initial="hidden"
-                                    animate={inViewwebsite4 ? "visible" : "hidden"} // Animate when inView is true
+                                    animate={inViewwebsite4 ? "visible" : "hidden"} 
                                     variants={itemVariants}
                                     transition={{ duration: 1, ease: "linear" }}
                                 >
                                     <div className="service_box">
                                         <div className="service_icon">
-                                            <img className='icon-img-si-card' src='/assets/icon/content.png' alt='video icon' />
+                                            <img className='icon-img-si-card' src='/assets/icon/content.png' alt='video icon'  loading="lazy"/>
                                         </div>
                                         <h3>Content + Strategy</h3>
                                         <p className="paragrapg-all-component-font-family">
@@ -209,15 +206,15 @@ export const WebDesgin = () => {
                             <div className="col-md-3 col-sm-6">
                                 <motion.div
 
-                                    ref={refwebsite5} // Attach the ref to the container
+                                    ref={refwebsite5} 
                                     initial="hidden"
-                                    animate={inViewwebsite5 ? "visible" : "hidden"} // Animate when inView is true
+                                    animate={inViewwebsite5 ? "visible" : "hidden"} 
                                     variants={itemVariants}
                                     transition={{ duration: 1, ease: "linear" }}
                                 >
                                     <div className="service_box">
                                         <div className="service_icon">
-                                            <img className='icon-img-si-card' src='/assets/icon/cms.png' alt='video icon' />
+                                            <img className='icon-img-si-card' src='/assets/icon/cms.png' alt='video icon' loading="lazy" />
                                         </div>
                                         <h3>Integrations + CMS</h3>
                                         <p className="paragrapg-all-component-font-family">
@@ -233,16 +230,16 @@ export const WebDesgin = () => {
 
                             <div className="col-md-3 col-sm-6">
                                 <motion.div
-                                    ref={refwebsite6} // Attach the ref to the container
+                                    ref={refwebsite6} 
                                     initial="hidden"
-                                    animate={inViewwebsite6 ? "visible" : "hidden"} // Animate when inView is true
+                                    animate={inViewwebsite6 ? "visible" : "hidden"} 
                                     variants={itemVariants}
                                     transition={{ duration: 1, ease: "linear" }}
                                 >
 
                                     <div className="service_box">
                                         <div className="service_icon">
-                                            <img className='icon-img-si-card' src='/assets/icon/web-desgin-direction.webp' alt='video icon' />
+                                            <img className='icon-img-si-card' src='/assets/icon/web-desgin-direction.webp' alt='video icon'  loading="lazy"/>
                                         </div>
                                         <h3>Design + Direction</h3>
                                         <p className="paragrapg-all-component-font-family">
@@ -254,16 +251,16 @@ export const WebDesgin = () => {
                             <div className="col-md-3 col-sm-6">
                                 <motion.div
 
-                                    ref={refwebsite7} // Attach the ref to the container
+                                    ref={refwebsite7} 
                                     initial="hidden"
-                                    animate={inViewwebsite7 ? "visible" : "hidden"} // Animate when inView is true
+                                    animate={inViewwebsite7 ? "visible" : "hidden"} 
                                     variants={itemVariants}
                                     transition={{ duration: 1, ease: "linear" }}
                                 >
 
                                     <div className="service_box">
                                         <div className="service_icon">
-                                            <img className='icon-img-si-card' src='/assets/icon/app_development+tecnology.png' alt='video icon' />
+                                            <img className='icon-img-si-card' src='/assets/icon/app_development+tecnology.png' alt='video icon' loading="lazy" />
                                         </div>
                                         <h3>Dvelopment + Technology</h3>
                                         <p className="paragrapg-all-component-font-family ">

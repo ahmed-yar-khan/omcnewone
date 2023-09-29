@@ -7,100 +7,85 @@
   background: #e7e3e3;
 }
 
-   .bg-linear-g-brands {
-    background-image: linear-gradient(
-      113deg,
+.bg-linear-g-brands {
+  background-image: linear-gradient(113deg,
       #baa4a4 0,
       hsla(0, 32%, 100%, 100.9) 54%,
       hsla(0, 0%, 98%, 0.7) 0%,
       hsla(0, 0%, 100%, 7.2) 57%,
-      hsl(0deg 32% 6% / 27%)
-    );
-    position: absolute;
-    height: 138px;
-    width: 99vw;
+      hsl(0deg 32% 6% / 27%));
+  position: absolute;
+  height: 138px;
+  width: 99vw;
 }
-  .brand-client {
-    padding: 2.2rem 0px;
+
+.brand-client {
+  padding: 2.2rem 0px;
+}
+
+
+h2.heading-client-brand {
+  font-size: 2.875rem;
+  padding: 0px 2rem;
+  font-weight: 800;
+  color: #383636;
+  line-height: 3px;
+}
+
+h2.client-heading-trust {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: red;
+  padding: 0 3rem;
+}
+
+@keyframes grayscaleToColor {
+  from {
+    filter: grayscale(1);
   }
 
+  to {
+    filter: grayscale(0);
+  }
+}
 
+.client-logo-owl {
+  position: relative;
+  animation: grayscaleToColor 1s ease-in-out;
+}
+
+@media screen and (max-width: 800px) {
+  .client-name-that.trust.us {
+    background: #ffffff;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 281px) {
   h2.heading-client-brand {
-    font-size: 2.875rem;
-    padding: 0px 2rem;
-    font-weight: 800;
-    color: #383636;
-    line-height: 3px;
+    font-size: 1.7rem;
   }
+
   h2.client-heading-trust {
-    font-size: 3.5rem; 
-    font-weight: 800;
-    color: red;
-    padding: 0 3rem;
+    font-size: 2rem;
   }
-  
-  /* .splide__slide img {
-    vertical-align: bottom;
 
-} */
-
-  @keyframes grayscaleToColor {
-    from {
-      filter: grayscale(1);
-    }
-    to {
-      filter: grayscale(0);
-    }
-  }
-  
-  .client-logo-owl {
+  .client-name-that.trust.us {
+    background: #ffffff;
     position: relative;
-    animation: grayscaleToColor 1s ease-in-out;
+    display: block;
+    text-align: center;
+    margin: 1rem;
   }
-  
-  @media screen and (max-width: 800px) {
-    .client-name-that.trust.us {
-      background: #ffffff;
-      position: relative;
-      display: block;
-      text-align: center;
-      margin: 1rem;
-    }
-  }
-  
-  @media screen and (max-width: 281px) {
-    h2.heading-client-brand {
-      font-size: 1.7rem; 
-    }
-  
-    h2.client-heading-trust {
-      font-size: 2rem; 
-    }
-  
-    .client-name-that.trust.us {
-      background: #ffffff;
-      position: relative;
-      display: block;
-      text-align: center;
-      margin: 1rem;
-    }
-  }
-  
+}
 
-  /* .splide__pagination.splide__pagination--ltr {
-    display: none;
-  }
-  
-  .splide__arrow {
-    display: none;
-  } */
-  .client-logo-owl {
-    position: relative;
-    animation: grayscaleToColor 1s ease-in-out;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  /* ul#splide01-list {
-    align-items: center;
-} */
+.client-logo-owl {
+  position: relative;
+  animation: grayscaleToColor 1s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

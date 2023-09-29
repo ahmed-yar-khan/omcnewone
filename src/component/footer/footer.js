@@ -22,7 +22,6 @@ export const Footer = () => (
               </p>
             </div>
           </div>
-          {/* grid md:grid-cols-2 lg:grid-cols-4 */}
           <div className="grid-checking-style">
             <div className="mb-6">
               <h5 className="mb-2.5 font-bold uppercase heading-all-component-font-style">Links</h5>
@@ -33,12 +32,12 @@ export const Footer = () => (
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about us" className="text-white paragrapg-all-component-font-family">
+                  <Link to="/about-us" className="text-white paragrapg-all-component-font-family">
                     About Us
                   </Link>
                 </li>
                 <li>
-                  <Link to="/contact us" className="text-white paragrapg-all-component-font-family">
+                  <Link to="/contact-us" className="text-white paragrapg-all-component-font-family">
                     Contact Us
                   </Link>
                 </li>
@@ -57,27 +56,27 @@ export const Footer = () => (
               <h5 className="mb-2.5 font-bold uppercase heading-all-component-font-style">Our Services</h5>
               <ul className="mb-0 list-none">
                 <li>
-                  <Link to="/mobile application development" className="text-white paragrapg-all-component-font-family">
+                  <Link to="/mobile-application-development" className="text-white paragrapg-all-component-font-family">
                     App Development
                   </Link>
                 </li>
                 <li>
-                  <Link to="/digital soloution" className="text-white paragrapg-all-component-font-family">
+                  <Link to="/digital-soloution" className="text-white paragrapg-all-component-font-family">
                     Digital Merketing
                   </Link>
                 </li>
                 <li>
-                  <Link to="/search engine optimization" className="text-white paragrapg-all-component-font-family">
+                  <Link to="/search-engine-optimization" className="text-white paragrapg-all-component-font-family">
                     Search
                   </Link>
                 </li>
                 <li>
-                  <Link to="/system integration" className="text-white paragrapg-all-component-font-family">
+                  <Link to="/system-integration" className="text-white paragrapg-all-component-font-family">
                     System Integration
                   </Link>
                 </li>
                 <li>
-                  <Link to="/website design and development" className="text-white paragrapg-all-component-font-family">
+                  <Link to="/website-design-and-development" className="text-white paragrapg-all-component-font-family">
                     Web Solutions
                   </Link>
                 </li>
@@ -88,22 +87,20 @@ export const Footer = () => (
             <div className="mb-6">
               <h5 className="mb-2.5 font-bold uppercase heading-all-component-font-style">Contact US</h5>
               <ul className="mb-0 list-none">
-                <li>
-                  <Link to="/mobile application development" className="text-white paragrapg-all-component-font-family">
-                    Address:
-                    Plot No. HC/33 <br />  Bahadrabad Charminar Chowrangi
-                  </Link>
+                <li style={{ color: "black" }}>
+                  Address:
+                  Plot No. HC/33 <br />  Bahadrabad Charminar Chowrangi
+
                 </li>
-                <li>
-                  <Link to="/digital soloution" className="text-white paragrapg-all-component-font-family">
-                    Email:
-                    info@onlinemediacircle.com
-                  </Link>
+                <li style={{ color: "black" }}>
+
+                  Email:
+                  info@onlinemediacircle.com
+
                 </li>
-                <li>
-                  <Link to="/search engine optimization" className="text-white paragrapg-all-component-font-family">
-                    Number:      (021) 341 20043
-                  </Link>
+                <li style={{ color: "black" }}>
+                  Number:      (021) 341 20043
+
                 </li>
               </ul>
             </div>
@@ -126,10 +123,6 @@ export const Footer = () => (
               <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
             </svg>
           </Link>
-
-
-
-
           <Link
             href="#!"
             type="button"

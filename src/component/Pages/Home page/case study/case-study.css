@@ -29,6 +29,7 @@
   left: 5%;
   right: 5%;
 }
+
 .mobile-view-video-data {
   width: 15.4rem !important;
   border-radius: 38px 34px 32px 35px;
@@ -41,6 +42,7 @@
 img.img-frame {
   max-width: 100%;
 }
+
 .display-case-study-flex {
   display: flex;
   position: absolute;
@@ -52,6 +54,7 @@ img.img-frame {
   justify-content: center;
   align-items: center;
 }
+
 .background-img-url {
   position: relative;
   height: 750px;
@@ -60,9 +63,9 @@ img.img-frame {
 
 .case-study-text {
   z-index: 222;
-  font-size: 6vw; 
+  font-size: 6vw;
   position: relative;
-  left:0%;
+  left: 0%;
   right: 5%;
   top: 1%;
 }
@@ -77,17 +80,20 @@ img.img-frame {
   filter: drop-shadow(2px 3px 2px black);
   right: 3rem;
 }
+
 .brand-case-study {
   color: rgb(255, 255, 255);
   font-weight: 900;
-  font-size: 3vw; 
+  font-size: 3vw;
   filter: drop-shadow(2px 4px 3px black);
-  margin-left: 5%; 
+  margin-left: 5%;
   margin-top: 2%;
 }
+
 .background-opicity-shade {
   overflow: hidden;
 }
+
 video.video-tag.video-tagvideo.animate-slide-right {
   height: 100%;
   left: 1.1px;
@@ -97,10 +103,10 @@ video.video-tag.video-tagvideo.animate-slide-right {
 
 .mobile-video.radius {
 
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    border-radius: 40px 29px 30px 37px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 40px 29px 30px 37px;
 }
 
 .rating-case-study-container {
@@ -110,6 +116,7 @@ video.video-tag.video-tagvideo.animate-slide-right {
   margin-left: 4%;
   column-gap: 43px;
 }
+
 p.barstool-para-casestudy {
   font-size: 0.9rem;
   max-width: 38rem;
@@ -131,6 +138,7 @@ h3.number-case-study {
   font-size: 3vw;
   color: rgb(255, 255, 255);
 }
+
 p.para-rating-case-study {
   font-size: 1vw;
   color: #ffffff;
@@ -146,39 +154,77 @@ p.para-rating-case-study {
     right: 2% !important;
   }
 
-
+  .content {
+    width: 98%;
+  }
+  
   .case-study-text {
     z-index: 222;
     position: relative;
-    font-size: 6vw;
-    right: 17%;
-    top: 0%;
-}
+  }
+
   .barstool {
     font-size: 12vw !important;
     margin-left: 1% !important;
   }
 
-  .brand-case-study {
-    font-size: 5vw !important;
-    margin-left: 2% !important;
-    margin-top: 1% !important;
+  .para-div-casestudy {
+    max-width: 100%;
   }
+
+  .brand-case-study {
+    font-size: 18px !important;
+
+  }
+
   p.para-rating-case-study {
     font-size: 1.2vw !important;
   }
 
   p.barstool-para-casestudy {
-    font-size: 0.6rem !important;
-    max-width: 38rem !important;
+    font-size: 1rem !important;
+    max-width: 100% !important;
     color: white;
     position: relative;
     top: 0.5rem !important;
     left: 0rem !important;
     text-align: justify;
-    width: 60% !important;
-}
+    width: 80% !important;
+  }
 
+  .rating-case-study-container {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    width: 80% !important;
+  }
+
+  .rating-case-study {
+    color: white;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 2%;
+  }
+
+  h3.number-case-study {
+    font-size: 18PX;
+    color: rgb(255, 255, 255);
+  }
+
+  p.para-rating-case-study {
+    color: #ffffff;
+    max-width: 100%;
+    text-align: center;
+    font-size: 18px !important;
+  }
+
+  .barstool {
+
+    position: initial;
+
+  }
 }
 
 
@@ -213,6 +259,7 @@ p.para-rating-case-study {
   left: auto;
   right: 25px;
 }
+
 .bara {
   width: 4px;
   height: 300px;
@@ -231,5 +278,3 @@ p.para-rating-case-study {
   left: 0%;
   right: 0%;
 }
-
-

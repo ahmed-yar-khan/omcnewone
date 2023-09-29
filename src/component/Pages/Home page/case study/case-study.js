@@ -3,7 +3,7 @@ import "./case-study.css"
 import "../home.css";
 import { useRef, useEffect } from 'react';
 import { useInView } from "react-intersection-observer";
-import"../../../../App.css"
+import "../../../../App.css"
 export const CaseStudy = () => {
     const videoRef = useRef([]);
 
@@ -35,7 +35,11 @@ export const CaseStudy = () => {
             <div className='background-opicity-shade' >
                 <div className='background-img-url'>
                     <div className='content'>
-                        <img className='img-background' src={process.env.PUBLIC_URL + '/assets/backgroundimg/bg.jpg'} alt='background img' />
+                        <img className='img-background' 
+                        src={process.env.PUBLIC_URL + '/assets/backgroundimg/bg.jpg'} 
+                        alt='background img' 
+                        loading="lazy"
+                        />
                         <div className='background-img-opicity'></div>
                     </div>
                     <div className='display-case-study-flex'>
@@ -48,7 +52,7 @@ export const CaseStudy = () => {
                             </div>
                         </div>
 
-                        
+
                         <div className='text-mobile-other-text-container'>
                             <div className='mobiles-case-study'>
                                 <section className="mobile-section">
@@ -60,7 +64,8 @@ export const CaseStudy = () => {
                                                         <img
                                                             className='img-frame'
                                                             src="https://uploads-ssl.webflow.com/6247189edcd451f2855e1f96/63a5e6058c5e5c486081afa0_iphoneContainer.svg"
-                                                            alt=""
+                                                            alt="iphone-container"
+                                                            loading="lazy"
                                                         />
                                                     </div>
                                                     <div
