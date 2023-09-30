@@ -26,7 +26,7 @@ export const CaseStudy = () => {
 
     const video = [
         {
-            name: process.env.PUBLIC_URL + '/assets/video/casestudyVideo.mp4',
+            name: process.env.PUBLIC_URL + '/assets/video/ads1.mp4',
         },
     ]
 

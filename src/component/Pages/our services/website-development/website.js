@@ -5,7 +5,7 @@ import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import ParallaxComponent from "../../../parrelxeffect omc/parrelxeffect";
-export const WebDesgin = () => {
+const WebDesgin = () => {
 
     const videoRef = useRef(null);
 
@@ -282,3 +282,4 @@ export const WebDesgin = () => {
 
     </>
 }
+export default WebDesgin

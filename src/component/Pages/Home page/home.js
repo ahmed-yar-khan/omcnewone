@@ -12,7 +12,7 @@ import ClientLogosss from "./logo slider/client slogo";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import ParallaxComponent from "../../parrelxeffect omc/parrelxeffect";
-export const Home = () => {
+const Home = () => {
 
   const videoRef = useRef(null);
   const [isMobileView, setIsMobileView] = useState(window.innerWidth < 1260);
@@ -282,3 +282,4 @@ export const Home = () => {
   </>
 
 }
+export default Home ;

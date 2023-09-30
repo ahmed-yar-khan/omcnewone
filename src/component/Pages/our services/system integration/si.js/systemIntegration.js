@@ -4,7 +4,7 @@ import "../../../../../App.css"
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import ParallaxComponent from '../../../../parrelxeffect omc/parrelxeffect';
-export const SystemIntegration = () => {
+const SystemIntegration = () => {
 
   const itemVariants = {
     hidden: { y: 100, opacity: 0 },
@@ -186,3 +186,5 @@ export const SystemIntegration = () => {
     </div>
   );
 };
+
+export default SystemIntegration;

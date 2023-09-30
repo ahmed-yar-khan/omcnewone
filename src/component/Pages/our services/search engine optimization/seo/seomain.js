@@ -6,7 +6,7 @@ import { useAnimation } from "framer-motion";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import ParallaxComponent from "../../../../parrelxeffect omc/parrelxeffect";
-export const SearchEngine = () => {
+const SearchEngine = () => {
 
     const seoData = [
         {
@@ -279,3 +279,5 @@ export const SearchEngine = () => {
 
     </>
 }
+
+export default  SearchEngine ;
